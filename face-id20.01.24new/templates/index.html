@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма для ввода информации</title>
+</head>
+<body>
+    <h2>Введите информацию о человеке:</h2>
+    <form action="/submit_info" method="post">
+        <label for="id">ID:</label><br>
+        <input type="text" id="id" name="id"><br>
+        <label for="name">Имя:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="age">Возраст:</label><br>
+        <input type="number" id="age" name="age" min="0"><br>
+        <label for="gender">Пол:</label><br>
+        <input type="text" id="gender" name="gender"><br>
+        <label for="cr">Страна рождения:</label><br>
+        <input type="text" id="cr" name="cr"><br><br>
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
